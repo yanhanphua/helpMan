@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
-import tensorflow as tf
 
 
 with open('random_forest_model.h5','rb') as file:
